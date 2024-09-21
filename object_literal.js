@@ -38,6 +38,6 @@ function addressMaker(address) {
         country: 'Canada'
     };
     return newAddress
-  //  console.log(`Im living in ${newAddress.city} in the province ${state} in ${newAddress.country}`);
+  //  console.log(`I'm living in ${newAddress.city} in the province ${state} in ${newAddress.country}`);
 }
 console.log(addressMaker( { city: 'Calgary', state: 'Alberta' } ) );
